@@ -1,0 +1,172 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.menu {
+width: 205vh;
+background-color: #003366;
+font-size: 18px;
+}
+
+.menu ul {
+text-align: center;
+}
+
+.menu li {
+margin-right: 30px;
+padding: 20px;
+display: inline-block;
+}
+
+.menu ul li a {
+padding: 20px;
+color: white;
+text-decoration: none;
+display: block;
+border-radius: 50px;
+}
+
+.menu ul li a:hover {
+background-color: #0055cc;
+color: white;
+border-radius: 15px;  
+}
+
+
+.topo1{
+width: 100%;
+height: 110vh;
+background-image: url("../img/c1.jpg");
+text-align: center;
+padding: 350px;
+background-size: 100%;
+background-attachment: fixed;
+}
+
+.topo h1{
+color: #003366;
+font-size: 36px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topo p {
+color: #272727;
+font-size: 20px;
+box-shadow: rgb(37, 36, 36);
+}
+
+
+
+
+.meio {
+background-color: #f4f4f4;
+
+}
+
+.minicard {
+text-align: center;
+width: 400px;
+height: 400px;
+display: inline-block;
+box-shadow: 20px 10px 5px rgba(0, 0, 0, 0.1);
+margin: 50px;
+padding: 40px;
+border-radius: 10px;
+border-style: ridge;
+background-color: white;
+}
+
+.minicard img {
+width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.minicard h2 {
+color: #003366;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.minicard p {
+color: #555555;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.ultimo {
+display: inline-block;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.img img{
+width: 600px;
+height: 350px;
+display: inline-block;
+border-radius: 10px;
+margin-left:15px;
+}
+
+.img{
+width: 700px;
+display: inline-block;
+}
+
+.text{
+display: inline-block;
+width: 50%;
+vertical-align: top;
+}
+
+.text h2 {
+color: #003366;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+}
+
+.text p {
+color: #555555;
+font-family: Arial, Helvetica, sans-serif;
+margin: 5PX;
+}
+
+
+
+
+
+
+.rodapé {
+width: 205vh;
+background-color: #003366;
+}
+
+.rodapé ul {
+text-align: center;
+}
+
+.rodapé li {
+display: inline-block;
+margin-right: 30px;
+padding: 20px;
+}
+
+.rodapé ul li a {
+text-decoration: none;
+padding: 20px;
+color: white;
+display: inline-block;
+border-radius: 50px;
+}
+
+.rodapé ul li a:hover {
+background-color: #0055cc;
+color: #cccccc;
+border-radius: 15px;
+}
